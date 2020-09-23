@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "athleteName": "John Doe",
+    "workoutName": "Default Workout",
+    "startedTime": "2020-09-20T09:43:30Z",
+    "duration": "75",
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Deadlift",
+        "reps": 10,
+        "series": 10,
+        "order": 1
+      },
+      {
+        "id": 2,
+        "name": "Wall ball",
+        "reps": 20,
+        "series": 30,
+        "order": 2
+      },
+      {
+        "id": 3,
+        "name": "Squat",
+        "reps": 20,
+        "series": 10,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "athleteName": "John Doe",
+    "workoutName": "Default Workout",
+    "startedTime": "2020-09-20T09:43:30Z",
+    "duration": "75",
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Deadlift",
+        "reps": 10,
+        "series": 10,
+        "order": 1
+      },
+      {
+        "id": 2,
+        "name": "Wall ball",
+        "reps": 20,
+        "series": 30,
+        "order": 2
+      },
+      {
+        "id": 3,
+        "name": "Squat",
+        "reps": 20,
+        "series": 10,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "athleteName": "John Doe",
+    "workoutName": "Default Workout",
+    "startedTime": "2020-09-20T09:43:30Z",
+    "duration": "75",
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Deadlift",
+        "reps": 10,
+        "series": 10,
+        "order": 1
+      },
+      {
+        "id": 2,
+        "name": "Wall ball",
+        "reps": 20,
+        "series": 30,
+        "order": 2
+      },
+      {
+        "id": 3,
+        "name": "Squat",
+        "reps": 20,
+        "series": 10,
+        "order": 3
+      }
+    ]
+  }
+]
