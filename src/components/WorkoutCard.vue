@@ -2,10 +2,15 @@
   <div class="workout-card">
     <div class="workout-card__header">
       <p class="workout-card__title">{{ workout.workoutName }}</p>
-      <p class="workout-card__started-time">{{ workout.startedTime }}</p>
+      <p class="workout-card__started-time">{{ formatDate(new Date(workout.startedTime)) }}</p>
     </div>
     <div class="workout-card__exercises">
       <table class="workout-card-exercise">
+        <tr>
+          <th>Exercise</th>
+          <th>Reps</th>
+          <th>Series</th>
+        </tr>
         <tr v-for="ex in workout.exercises" :key="ex.id">
           <td>{{ ex.name }}</td>
           <td>{{ ex.reps }}</td>
@@ -19,6 +24,9 @@
 <script>
 export default {
   props: ["workout"],
+  methods: {
+    formatDate: date => date.getHours() + ':' + date.getMinutes()
+  }
 };
 </script>
 
@@ -31,11 +39,16 @@ export default {
 
   &__header {
     display: flex;
+    justify-content: space-between;
   }
 
   &__title {
     font-weight: bold;
     font-size: 20px;
   }
+}
+
+.workout-card-exercise {
+  width: 100%;
 }
 </style>
