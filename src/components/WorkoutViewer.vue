@@ -1,6 +1,8 @@
 <template>
   <main class="workout-viewer">
     <workout-card v-for="workout in workouts" :key="workout.id" :workout="workout" />
+    <workout-card v-for="workout in workouts" :key="workout.id" :workout="workout" />
+    <workout-card v-for="workout in workouts" :key="workout.id" :workout="workout" />
   </main>
 </template>
 
@@ -23,5 +25,6 @@ export default {
 <style scoped>
 .workout-viewer {
   display: flex;
+  flex-wrap: wrap;
 }
 </style>
